@@ -94,8 +94,8 @@
                               "<span style='color: black;'><b>Project Code: </b>" + featurePCentre.properties.Project + "</br>" +
                               "<b>Survey Type: </b>" + featureCoverage.properties.Survey_Typ + "</br>" +
                               "<b>GSD: </b>" + featureCoverage.properties.GSD + "</br>" +
-                              "<b>Area: </b>" + (featureProject.properties.Project_Area / 1000).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + " km²</br>" +
-                              "<b>Captured Area: </b>" + (featureCoverage.properties.Area / 1000).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + " km²</br>" +
+                              "<b>Area: </b>" + (featureProject.properties.Project_Area / 1000000).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + " km²</br>" +
+                              "<b>Captured Area: </b>" + (featureCoverage.properties.Area / 1000000).toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }) + " km²</br>" +
                               "<b>Coverage To Date: " + featureCoverage.properties.Percentage_Coverage + "%</b></br>";
 
           var popupContent = document.createElement('div');
