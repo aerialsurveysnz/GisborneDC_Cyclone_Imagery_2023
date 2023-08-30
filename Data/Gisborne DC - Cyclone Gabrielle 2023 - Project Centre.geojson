@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "Gisborne DC - Cyclone Gabrielle 2023 - Project Centre",
+"features": [
+{ "type": "Feature", "properties": { "Project": "PGRM3124", "Survey_Typ": "Imagery", "GSD": "0.2", "Flown": "No", "MAP_NAME": "Gisborne DC - Cyclone Gabrielle 2023.shp", "Project_Area": 7743005015.524641, "Project_Name": "Gisborne DC - Cyclone Gabrielle 2023" }, "geometry": { "type": "Point", "coordinates": [ 177.978506457641117, -38.256414798290663 ] } }
+]
+}
